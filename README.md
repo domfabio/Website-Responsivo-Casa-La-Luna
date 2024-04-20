@@ -1,4 +1,4 @@
-# 💻📱 Website Responsivo Casa La Luna 🌙✈️🏠
+# 📱 Website Responsivo Casa La Luna 🌙🏠
 
 Este é o terceiro projeto do Curso de Desenvolvimento de Layout em Front-end da Mentorama. Casa La Luna é um site para um resort que oferece serviços de hospedagem, desenvolvido para as versões Desktop, Tablet e Mobile.
 
