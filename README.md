@@ -32,4 +32,4 @@ Os desafios foram muitos: a metodologia BEM, a Responsividade, as Media Queries,
 
 ## 🔗 Projeto Hospedado no Vercel
 Este projeto está disponível para visualização online através do Vercel. <br />
-Você pode acessá-lo através do link: https://website-desktop-tenis-sneak.vercel.app/
+Você pode acessá-lo através do link: https://casa-la-luna.vercel.app/
