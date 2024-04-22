@@ -28,7 +28,7 @@ Os desafios foram muitos: a metodologia BEM, a Responsividade, as Media Queries,
 <br />
 
 ## 📸 Screenshots
-![Captura de tela](./screen/desktop-sneak.png)
+![Captura de tela](./screen/screen-casa-la-luna.png)
 
 ## 🔗 Projeto Hospedado no Vercel
 Este projeto está disponível para visualização online através do Vercel. <br />

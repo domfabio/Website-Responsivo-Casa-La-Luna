@@ -1,0 +1,840 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --black: #000000;
+    --dark: #333333;
+    --gray: #666666;
+    --background: #F1F1F1;
+    --white: #FFFFFF;
+    --yellow: #EBE54D;
+    --blue: #43519D;
+    --table: #29315E;
+    --alt-font: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background);
+    color: var(--dark);
+}
+
+header {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    background-color: var(--white);
+    justify-content: space-between;
+
+}
+
+.header__logo {
+    width: 103px;
+    padding: 10px;
+}
+
+.header__item__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__item__right{
+    display: flex;
+    align-items: center;
+}
+
+.header__phone{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: none;
+}
+
+.header__botao__iniciar{
+    display: none;
+    border: none;
+    width: 150px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.header__botao__iniciar span{
+    margin-left: 10px;
+}
+
+.header__burger {
+    width: 33px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__menu__desktop{
+    width: 120px;
+    background-color: var(--blue);
+    border-radius: 8px;
+}
+
+.navigation__itens{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    height: 84px;
+    background-color: var(--white);
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.nav__menu__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__menu__list li {
+    margin: 0 60px 0 10px;
+}
+
+.nav__botao{
+    width: 289px;
+    margin-right: 20px;
+}
+
+section {
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.title {
+    font-family: var(--alt-font);
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
+.locais__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.locais__item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.locais__item__texto {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: absolute;
+    color: var(--white);
+    font-family: var(--alt-font);
+    margin-left: 10px;
+}
+
+.locais__item__texto h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.locais__item__info {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locais__item__info p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.locais__item__info span {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--yellow);
+ 
+}
+
+.sobre p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 169.5%;
+}
+
+.cards__item {
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.cards__item img {
+    width: 56px;
+    height: 46px;
+    padding: 30px 20px;
+}
+
+.cards__item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 169.5%;
+    padding-right: 17px;
+}
+
+.quartos__container__item {
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.quarto__foto {
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+}
+
+.quarto__desc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.quarto__preco {
+    font-family: var(--alt-font);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 0 10px;
+}
+
+.quarto__preco span {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gray);
+    margin-left: 8px;
+}
+
+.stars {
+    width: 94px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.quarto__local {
+    margin-left: 10px;
+}
+
+.quarto__local h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 400;
+    margin: 0;
+}
+
+.quarto__local p {
+    font-family: var(--alt-font);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gray);
+    margin: 0;
+}
+
+button {
+    margin-right: 10px;
+    width: 137px;
+    height: 44px;
+    background-color: transparent;
+    color: var(--blue);
+    font-family: var(--alt-font);
+    font-size: 16px;
+    font-weight: 600;
+    border: solid 2px var(--blue);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.quartos__mais {
+    display: flex;
+}
+
+.quartos__mais p {
+    align-self: flex-end;
+    position: absolute;
+    font-family: var(--alt-font);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--yellow);
+    margin: 10px;
+}
+
+.quarto__extra {
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.table {
+    width: 100%;
+}
+
+th,
+td {
+    width: 71px;
+    height: 67px;
+    font-size: 14px;
+    line-height: 169%;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+th {
+    background-color: var(--table);
+    color: var(--white);
+}
+
+td:nth-child(4) {
+    font-family: var(--alt-font);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+tr:nth-child(odd) {
+    background-color: var(--white);
+}
+
+tr:nth-child(even) {
+    background-color: var(--yellow);
+}
+
+.pacote {
+    background-color: var(--yellow);
+    border-radius: 8px;
+    padding: 0 0 23px 0;
+}
+
+.pacote h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+form {
+    background-color: var(--white);
+    margin: 0 10px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+label {
+    font-family: var(--alt-font);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.form__field {
+    display: grid;
+    margin: 10px;
+}
+
+select {
+    width: 126px;
+    margin-right: 27px;
+    border: solid 1px #c5c3c3;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+input[type=number] {
+    width: 126px;
+    margin-right: 27px;
+    border: solid 1px #c5c3c3;
+    border-radius: 2px;
+}
+
+input[type=date] {
+    width: 126px;
+     margin-right: 27px;
+    border: solid 1px #c5c3c3;
+    border-radius: 2px;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.contatos__texto {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 169.5%;
+}
+
+.contatos__imagem img {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--dark);
+    color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-bottom: 28px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 20px 0 0 0;
+}
+
+/*esconder tablet e mobile*/
+.tels__palavra,
+.contatos__mail__palavra,
+.dress__palavra{
+    display: none;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px 10px 0 0;
+}
+
+.footer__social img {
+    width: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 320px) {
+
+    .hide-mobile{
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .hide-tablet{
+        display: none;
+    }
+
+    header {
+        height: 125px;
+    }
+
+    .header__logo {
+        width: 250px;
+        padding: 20px;
+    }
+
+    .header__burger {
+        padding: 20px;
+    }
+
+    section {
+        padding: 0 20px;
+        margin-top: 60px;
+    }
+
+    .locais__item {
+        margin-bottom: 10px;
+    }
+
+    .locais__item img {
+        height: 230px;
+    }
+
+    .locais__item__texto {
+        margin-left: 30px;
+        width: 320px;
+    }
+
+    .locais__item__texto h2 {
+        font-size: 40px;
+    }
+
+    .locais__item__info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .locais__item__info span {
+        margin-top: 32px;
+    }
+
+    .title {
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    .banheira {grid-area: banheira}
+    .tv {grid-area: tv}
+    .cafe {grid-area: cafe}
+    .drink {grid-area: drink}
+    .cloche {grid-area: cloche}
+    .toalha {grid-area: toalha}
+    .placa {grid-area: placa}
+    .cartao {grid-area: cartao}
+    .chave {grid-area: chave}
+
+    .cards{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "banheira tv"
+        "cafe cafe"
+        "drink cloche"
+        "drink toalha"
+        "placa placa"
+        "cartao chave"
+        ;
+        width: calc(100% - 10px);
+        gap: 10px;
+        
+    }
+
+    .cards__item {
+        margin-bottom: 0;
+    }
+
+    .quartos__container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(3, 310px);
+        width: calc(100% - 10px);
+        gap: 10px;
+
+        grid-template-areas:
+        "quarto1 quarto2"
+        "quarto3 quarto4"
+        "quarto5 quarto9"
+        ;
+    }
+
+    .quarto1 {grid-area: quarto1}
+    .quarto2 {grid-area: quarto2}
+    .quarto3 {grid-area: quarto3}
+    .quarto4 {grid-area: quarto4}
+    .quarto5 {grid-area: quarto5}
+    .quarto9 {grid-area: quarto9}
+
+    .quartos__container__item{
+        margin: 0;
+    }
+
+    .quarto__foto {
+        height: 180px;
+    }
+
+    .quarto__extra {
+        height: 310px;
+    }
+
+    .quartos__mais p{
+        margin: 25px;
+    }
+
+    table{
+        width: calc(100% + 20px);
+        border-spacing: 10px;
+        margin-left: -10px;
+    }
+
+
+    .pacote h1{
+        padding: 35px 0 27px 40px;
+    }
+
+    form {
+        margin: 0 20px;
+        grid-template-columns: 25% 25% 25% 25%;
+        align-items: center;
+    }
+
+    .form__field{
+        margin: 20px;
+    }
+
+    .contatos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 268px;
+        
+    }
+
+    .contatos__texto p{
+        width: 359px;
+    }
+
+    .contatos__imagem img{
+        height: 268px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .footer__logo{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    footer{
+        padding: 0;
+    }
+
+    .footer__social p{
+        margin-bottom: 20px;
+    }
+
+    .footer__menu{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .footer__social{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    
+
+    .hide-tablet{
+        display: flex;
+    }
+
+    .expose-desktop{
+        display: flex;
+    }
+
+    header{
+        background-color: transparent;
+    }
+
+    .header__burger {
+        display: none;
+    }
+
+    .header__phone{
+        display: flex;
+    }
+
+    .header__item__right{
+        margin-right: 20px;
+    }
+
+    .header__botao__iniciar{
+        display: flex;
+    }
+
+    .navigation__itens{
+        display: flex;
+    }
+
+    section {
+        margin-top: 100px;
+    }
+
+    /* para regular o grid foi necesário ajustar os tamanhos das imagens*/
+    .locais__item img {
+        height: 260px;
+        
+    }
+
+    .explain__tentes img{
+        height: 540px;
+    }
+
+    .explain__tentes span{
+        margin-top: 320px;
+    }
+
+    .locais {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        width: 100%;
+        height: 540px;
+        grid-template-areas:
+            "royal tentes"
+            "aymane tentes"
+        ;
+    }
+    
+    .royal {grid-area: royal}
+    .tentes {grid-area: tentes}
+    .aymane {grid-area: aymane}
+    
+
+    .locais__item{
+        margin: 0;
+    }
+
+    .sobre {
+        width: 750px;
+    }
+
+    
+
+    /*grid desktop*/
+
+    .banheira {grid-area: banheira}
+    .tv {grid-area: tv}
+    .cafe {grid-area: cafe}
+    .drink {grid-area: drink}
+    .cloche {grid-area: cloche}
+    .toalha {grid-area: toalha}
+    .placa {grid-area: placa}
+    .cartao {grid-area: cartao}
+    .chave {grid-area: chave}
+
+    .cards{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "banheira tv cafe cafe"
+        "drink cloche toalha cartao"
+        "drink placa placa chave"
+        ;
+        width: calc(100% - 60px);
+        gap: 20px;
+    
+    }
+
+    .cards__item {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .cards__item p {
+        padding-left: 30px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .cards__item img {
+        padding-bottom: 10px;
+    }
+
+    .quartos__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 310px);
+        width: 100%;
+        gap: 20px;
+
+        grid-template-areas:
+        "quarto1 quarto2 quarto3"
+        "quarto4 quarto5 quarto6"
+        "quarto7 quarto8 quarto9"
+        ;
+    }
+
+    .quarto1 {grid-area: quarto1}
+    .quarto2 {grid-area: quarto2}
+    .quarto3 {grid-area: quarto3}
+    .quarto4 {grid-area: quarto4}
+    .quarto5 {grid-area: quarto5}
+    .quarto9 {grid-area: quarto9}
+
+    table{
+        width: calc(100% + 40px);
+        border-spacing: 20px;
+        margin-left: -20px;
+    }
+    
+    form {
+        margin: 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .form__field {
+        display: grid;
+        width: 10%;
+    }
+
+    .contatos{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 350px;
+        
+    }
+
+    .contatos__imagem img{
+        height: 350px;
+    }
+
+    .contatos__texto__dress,
+    .contatos__texto__tels,
+    .contatos__mail{
+        display: grid;
+        grid-template-columns: 20% 25%;
+    }
+
+    .contato__mudar__cor{
+        color: var(--gray);
+    }
+
+    .contatos button{
+        width: 169px;
+        margin-top: 40px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+}
