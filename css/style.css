@@ -428,6 +428,10 @@ footer p {
     margin: 20px 0 0 0;
 }
 
+a {
+    color: var(--black);
+}
+
 /*esconder tablet e mobile*/
 .tels__palavra,
 .contatos__mail__palavra,
@@ -446,6 +450,7 @@ footer p {
     width: 25px;
     margin-bottom: 20px;
 }
+
 
 @media (max-width: 767px) {
 
