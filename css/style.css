@@ -296,7 +296,7 @@ button {
     object-fit: cover;
 }
 
-.table {
+table {
     width: 100%;
 }
 
@@ -447,9 +447,7 @@ footer p {
     margin-bottom: 20px;
 }
 
-
-
-@media (max-width: 320px) {
+@media (max-width: 767px) {
 
     .hide-mobile{
         display: none;
