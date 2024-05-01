@@ -11,7 +11,7 @@ Os desafios foram muitos: começar a explorar a metodologia BEM, aprender a resp
 <br />
 
 ## 📸 Screenshots
-![Captura de tela](./screen/screen-casa-la-luna.png)
+![Captura de tela](./screen/screen-casa-la-luna-2.png)
 
 <br />
 
